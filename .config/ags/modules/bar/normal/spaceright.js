@@ -71,14 +71,14 @@ export default () => {
     return Widget.EventBox({
         onScrollUp: () => {
             if (!Audio.speaker) return;
-            if (Audio.speaker.volume <= 0.09) Audio.speaker.volume += 0.01;
-            else Audio.speaker.volume += 0.03;
+            if (Audio.speaker.volume <= 0.1) Audio.speaker.volume += 0.01;
+            else Audio.speaker.volume = Math.min(Audio.speaker.volume + 0.05, 1);
             Indicator.popup(1);
         },
         onScrollDown: () => {
             if (!Audio.speaker) return;
-            if (Audio.speaker.volume <= 0.09) Audio.speaker.volume -= 0.01;
-            else Audio.speaker.volume -= 0.03;
+            if (Audio.speaker.volume <= 0.1) Audio.speaker.volume -= 0.01;
+            else Audio.speaker.volume -= 0.05;
             Indicator.popup(1);
         },
         child: Widget.Box({
