@@ -23,3 +23,6 @@ alias pamcan=pacman
 #   set_color cyan; echo (pwd)
 #   set_color green; echo '> '
 # end
+
+# Source an external configuration in the user's home folder for customizations:
+source ~/.fish-config
