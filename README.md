@@ -4,7 +4,6 @@ A personal fork of [End-4's top-notch dots-hyprland](https://github.com/end-4/do
 
 Current customizations in this repo:
 - Taskbar mousewheel volume adjustments set to 5% and capped to 100% to match keyboard volume behavior
-- Overview layout fixes as [seen here](https://github.com/end-4/dots-hyprland/pull/691) not yet available upstream
 - Changed Arch update command in the Tools dropdown to `yay --noconfirm`
 - Disabled timed hypridle automatic lock / monitor power-off / system suspend (these can be triggered manually)
 - Switched packages to non-git versions for stability
