@@ -150,10 +150,8 @@ case $SKIP_HYPR_AUR in
   *)
 	  hyprland_installflags="-S"
 	  $ask || hyprland_installflags="$hyprland_installflags --noconfirm"
-    # Install a hyprland-git dummy package to fill dependencies from other packages:
-    v install-local-pkgbuild ./arch-packages/hyprutils-git-dummy --needed
-    v yay $hyprland_installflags --asdeps hyprutils hyprlang hyprcursor hyprwayland-scanner
-    v yay $hyprland_installflags --answerclean=a hyprland
+    v yay $hyprland_installflags --asdeps hyprutils-git hyprlang-git hyprcursor-git hyprwayland-scanner-git
+    v yay $hyprland_installflags --answerclean=a hyprland-git
     ;;
 esac
 

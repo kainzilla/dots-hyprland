@@ -8,12 +8,12 @@ depends=(
 	dart-sass
 	python-pywayland
 	python-psutil
-	hypridle
- 	hyprutils
-	hyprlock
+	hypridle-git
+ 	hyprutils-git
+	hyprlock-git
 	wlogout
 	wl-clipboard
-	hyprpicker
-	anyrun-git 
+	hyprpicker-git
+	anyrun-git
 )
 
