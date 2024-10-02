@@ -6,5 +6,4 @@ Current customizations in this repo:
 - Taskbar mousewheel volume adjustments set to 5% and capped to 100% to match keyboard volume behavior
 - Changed Arch update command in the Tools dropdown to `yay --noconfirm`
 - Disabled timed hypridle automatic lock / monitor power-off / system suspend (these can be triggered manually)
-- Switched packages to non-git versions for stability
 - Sources `~/.fish-config` to allow customizing fish shell outside the `~/.config/fish/` directory to preserve customizations during reinstall
