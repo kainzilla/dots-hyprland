@@ -1,6 +1,0 @@
-pkgname=hyprutils-git-dummy
-pkgver=1.0.0
-pkgrel=1
-pkgdesc='Dummy package for hyprutils-git'
-provides=('hyprutils-git=99.0.0')
-arch=('any')
