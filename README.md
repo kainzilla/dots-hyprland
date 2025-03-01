@@ -1,5 +1,7 @@
 # dots-hyprland
 
+## 2025.03.01: Moving this repo to an archived state, as I no longer use Hyprland.
+
 A personal fork of [End-4's top-notch dots-hyprland](https://github.com/end-4/dots-hyprland). This is mostly intended for my personal use, but feel free to use it if you like the small changes I make!
 
 Current customizations in this repo:
